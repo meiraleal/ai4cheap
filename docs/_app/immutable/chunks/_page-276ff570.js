@@ -1,0 +1,1 @@
+import{c as o}from"./index-b9006f2c.js";const e=async function({params:{slug:t}}){return{post:t==="new"?{}:await o.collection("posts").getOne(t)}},a=Object.freeze(Object.defineProperty({__proto__:null,load:e},Symbol.toStringTag,{value:"Module"}));export{a as _,e as l};

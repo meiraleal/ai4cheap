@@ -1,0 +1,1 @@
+import{c as s}from"./index-b9006f2c.js";const l=async function({url:n,params:{slug:t}}){const{items:o}=await s.collection("posts").getList(void 0,void 0,{filter:`slug="${t}"`}),[e]=o;return{post:e}},a=Object.freeze(Object.defineProperty({__proto__:null,load:l},Symbol.toStringTag,{value:"Module"}));export{a as _,l};
